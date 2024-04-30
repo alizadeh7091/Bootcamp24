@@ -1,0 +1,149 @@
+.nav
+{
+    direction: rtl;
+    display: flex;
+    /* text-align: right; */
+    margin-bottom: 40px;
+}
+a:hover
+{
+    text-decoration: underline;
+}
+.signin
+{
+    background: #1a73e8;
+    color: white;
+    padding: 9px 23px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    vertical-align: middle;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 16px;
+}
+.signin:hover
+{
+    background: #0e55b3;
+
+}
+.nine_dots
+{
+    width: 17px;
+    height: 17px;
+    margin-top: 8px;
+    margin-right: 25px;
+}
+.images,.gmail 
+{
+    margin-top: 8px;
+    margin-right: 25px;
+}
+.google
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.search_box
+{
+    display: flex;
+    background: #fff;
+    margin: 0 auto;
+    width: 50%;
+    height: 44px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+}
+.search_image
+{
+    margin-top: 15px;
+    margin-left:21px;
+    width: 15px;
+    height: 15px;
+}
+.input_box
+{
+    margin-top: 8px;
+    width: 525px;
+    height: 25px;
+    margin-left: 8px;
+    border: none;
+    
+}
+.voice_image
+{
+    margin-top: 8px;
+    width: 25px;
+    height: 27px;
+    margin-left: 15px;
+}
+.lenz_image
+{
+    margin-top: 12px;
+    width:20px;
+    height: 20px;
+    margin-left: 15px;
+}
+input:focus
+{
+    outline: none;
+}
+.header_a_tag{
+    text-decoration: none;
+    color: #1f1f1f;
+}
+.buttons
+{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.google_search_btn,.lucky_btn
+{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+button:hover
+{
+    border: 1px solid #e1e7ec;
+}
+.footer
+{
+    display: flex;
+    background-color: #f8f9fa;
+    margin-top: 259px;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.footer_left,.footer_right
+{
+    display: flex;
+}
+.footer_a_tag
+{
+    text-decoration: none;
+    color: #1f1f1f;
+    padding: 15px;
+}
+body, input, button {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+}

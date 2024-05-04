@@ -1,0 +1,185 @@
+body
+{
+    font-family: "Segoe UI", Segoe, Tahoma, Arial, Verdana, sans-serif;
+}
+.container
+{
+    background-image: url("BingWallpaper.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.nav_bar
+{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-top: 20px;
+}
+.nav_bar > a 
+{
+    text-decoration: none;
+    color: white;
+}
+.microsoft
+{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.microsoft > div
+{
+    margin-left: 10px;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.logo_img{
+    width: 30px;
+    height: 30px;
+}
+.copilot
+{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.copilot_container
+{
+    display: flex;
+    margin-left: 20px;
+}
+.copilot > a , .copilot > div > a
+{
+    text-decoration: none;
+    color: white;
+}
+
+
+.copilot_img
+{
+    width: 32px;
+    height: 30px;
+}
+.copilot_writen
+{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.copilot > div{
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.sign_in
+{
+    display: flex;
+    margin-left: 30px;
+    /* justify-content: space-between; */
+}
+.sign_in > div 
+{
+    margin-top: 5px;
+}
+.signin_img
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+}
+.mobile
+{
+    display: flex;
+    margin-left: 20px;
+    /* justify-content: space-between; */
+}
+.mobile > div 
+{
+    margin-top: 5px;
+}
+.mobile_img
+{
+    padding-left: 5px;
+    width: 20px;
+    height: 32px;
+}
+.menu_img
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 120px;
+    margin-top: 7px;
+}
+.search_box
+{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    background: white;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+}
+.search_box > input
+{
+    width: 80%;
+    border: none;
+    border-radius: 50px;
+}
+input:focus
+{
+    outline: none;
+}
+.search_box > a > img 
+{
+    width: 25px;
+    height: 25px;
+    margin-top: 12px;
+    padding-left: 12px;
+}
+.info_bar
+{
+    margin-top:291px;
+    display: flex;
+    direction: rtl;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.info_bar > div 
+{
+    background: rgb(45, 43, 43);
+    padding: 5px;
+    padding-left: 12px;
+    margin-left: 3px;
+    padding-right: 12px;
+    border-radius: 5px;
+}
+.info_bar > div > a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: space-between;
+    background: #e6dfdf;
+    color: black;
+    padding: 12px;
+    padding-right: 100px;
+}
+.footer_left
+{
+    display: flex;
+    margin-left: 100px;
+}
+.footer_left > div 
+{
+    padding-left:25px;
+}
+.footer_left > div > a 
+{
+    text-decoration: none;
+    color: black;
+}

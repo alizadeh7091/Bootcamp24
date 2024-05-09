@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <style>
+      body {
+        text-align: center;
+      }
+      input {
+        width: 30%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+      button {
+        width: 30%;
+        background-color: #4caf50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="register.php" method="post">
+      <div>
+        <label for="">Name</label><br />
+        <input type="text" name="name" id="" />
+      </div>
+      <br />
+      <div>
+        <label for="">Email</label><br />
+        <input type="email" name="email" id="" />
+      </div>
+      <br />
+      <div>
+        <label for="">Password</label><br />
+        <input type="password" name="password" />
+      </div>
+      <br />
+      <button>Submit</button>
+    </form>
+    <h6>if you have already rgistered then press the link below:</h6>
+    <a href="login.html">Log In Form</a>
+  </body>
+</html>

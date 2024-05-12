@@ -9,7 +9,7 @@ if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
 
-for ($i = 0; $i < 100000000; $i++) {
+for ($i = 0; $i <= 100000000; $i++) {
     $name = $faker->word();
     $family = $faker->word();
     $age =$faker->randomNumber(2, true);

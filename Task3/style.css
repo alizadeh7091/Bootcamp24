@@ -67,11 +67,11 @@ a:hover
 .input_box
 {
     margin-top: 8px;
-    width: 525px;
+    width: 490px;
     height: 25px;
-    margin-left: 8px;
+    margin-left: 15px;
+    /* margin-right: 5%; */
     border: none;
-    
 }
 .voice_image
 {
@@ -79,6 +79,7 @@ a:hover
     width: 25px;
     height: 27px;
     margin-left: 15px;
+    /* display: block; */
 }
 .lenz_image
 {
@@ -86,6 +87,8 @@ a:hover
     width:20px;
     height: 20px;
     margin-left: 15px;
+    /* display: block; */
+
 }
 input:focus
 {
@@ -128,7 +131,7 @@ button:hover
 {
     display: flex;
     background-color: #f8f9fa;
-    margin-top: 259px;
+    margin-top: 257px;
     justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
@@ -147,3 +150,26 @@ body, input, button {
     font-size: 14px;
     font-family: arial, sans-serif;
 }
+@media screen and (max-width: 600px) {
+    .footer {
+        display: block;
+    }
+    .footer_right{
+        align-items: center;
+        justify-content: center;
+    }
+    .footer{
+        margin-top: 210px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .search_box{
+        width: 90%;
+    }
+    .input_box{
+        width: 280px;
+    }
+    .signin{
+    padding: 9px 17px;
+    }
+  }
